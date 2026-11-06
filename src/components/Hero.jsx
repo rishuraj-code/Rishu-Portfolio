@@ -99,8 +99,9 @@ export default function Hero() {
           <div className="avatar-frame-glow"></div>
           
           <div className="avatar-card glass-card">
+          
             <img
-              src="/avatar.jpg"
+              src={`${import.meta.env.BASE_URL}avatar.jpg`}
               alt="Rishu Developer Portrait"
               className="avatar-image"
             />
