@@ -11,7 +11,7 @@ export const personalInfo = {
   phoneDisplay: "7352493672",
   location: "Pune, India",
   status: "Software Engineer Intern @ TDTL | Open to Opportunities",
-  resumeUrl: "/Rishu_Raj_Resume.pdf", // Attached resume PDF in public folder
+  resumeUrl: `${import.meta.env.BASE_URL}Rishu_Raj_Resume.pdf`, // Attached resume PDF in public folder
   socials: {
     github: "https://github.com/rishuraj-code",
     linkedin: "https://www.linkedin.com/in/rishu-raj-53810231a",
